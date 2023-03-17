@@ -1,0 +1,28 @@
+[
+  {
+    "datatype": "metric",
+    "maxDataSizeMB": 0,
+    "name": "metrics_platform_prod",
+    "searchableDays": 120,
+    "totalEventCount": "0",
+    "totalRawSizeMB": "0"
+  },
+  {
+    "datatype": "event",
+    "maxDataSizeMB": 0,
+    "name": "wise1_test",
+    "searchableDays": 120,
+    "totalEventCount": "0",
+    "totalRawSizeMB": "0"
+  },
+  {
+    "datatype": "event",
+    "maxDataSizeMB": 0,
+    "name": "accesslogs_platform_dev",
+    "searchableDays": 30,
+    "selfStorageBucketPath": "s3://STACKNAME-uihl00uibpxd-splunkcloud-test",
+    "splunkArchivalRetentionDays": 90,
+    "totalEventCount": "0",
+    "totalRawSizeMB": "0"
+  }
+]

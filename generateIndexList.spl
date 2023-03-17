@@ -1,0 +1,11 @@
+| btool indexes list 
+| search splunk_server=idx* btool.stanza!=_* btool.stanza!=itsi_* 
+| dedup btool.stanza
+| eval searchableDays=ceil(frozenTimePeriodInSecs/60/60/24)
+| table btool.stanza datatype 	searchableDays
+| rename btool.stanza AS name
+| tojson
+| stats values(_raw) AS indexes
+| eval indexes="[".mvjoin(indexes,",")."]"
+| eval _raw = json_set(json_object(),"indexes",json_extract(indexes,""))
+| fields _raw

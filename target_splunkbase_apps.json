@@ -1,0 +1,29 @@
+{
+    "apps": [
+        {
+            "id": 6368,
+            "version": "1.1.0",
+            "licenseUrl": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
+            "appid": "sa-littlehelper"
+        },
+        {
+            "id": 3435,
+            "version": "3.6.0",
+            "licenseUrl": "http://www.splunk.com/en_us/legal/splunk-software-license-agreement.html",
+            "appid": "Splunk_Security_Essentials"
+        },
+        {
+            "id": 5137,
+            "externallyManaged": true,
+            "appID": "splunk_product_guidance",
+            "licenseUrl": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
+            "appid": "splunk_product_guidance"
+        },
+        {
+            "id": 833,
+            "version": "8.7.0",
+            "licenseUrl": "http://www.splunk.com/view/SP-CAAAAFA",
+            "appid": "Splunk_TA_nix"
+        }
+    ]
+}
